@@ -1,0 +1,45 @@
+ISim log file
+Running: C:\Users\User\Documents\Xilinx Projects\Enlightened\Test_OLED_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/User/Documents/Xilinx Projects/Enlightened/Test_OLED_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your license support version '2016.11' for ISIM expires in 23 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your license support version '2016.11' for ISIM expires in 23 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your license support version '2016.11' for ISIM expires in 23 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your license support version '2016.11' for ISIM expires in 23 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
