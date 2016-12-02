@@ -1,0 +1,29 @@
+# fpga_top.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Thu Sep 05 23:25:51 2013
+#The following constraints were newly added
+NET "led" LOC = P12;
+NET "clk" LOC = P94;
+NET "display_rgb2<0>" LOC = P78;
+NET "display_rgb2<1>" LOC = P82;
+NET "display_rgb2<2>" LOC = P80;
+NET "display_addr<0>" LOC = P74;
+NET "display_addr<1>" LOC = P95;
+NET "display_addr<2>" LOC = P62;
+NET "display_addr<3>" LOC = P59;
+NET "usb_rxd" LOC = P105;
+NET "display_oe" LOC = P50;
+NET "display_lat" LOC = P55;
+NET "display_clk" LOC = P57;
+NET "display_rgb1<0>" LOC = P84;
+NET "display_rgb1<1>" LOC = P92;
+NET "display_rgb1<2>" LOC = P87;
+NET "bluetooth_rxd" LOC = P117;
+NET "usb_txd" LOC = P101;
+NET "bluetooth_txd" LOC = P118;

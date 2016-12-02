@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.68d
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Users\Shahriar Shahramian\Desktop\32x32LEDMatrix\fpga\//fpga_top" -s 8192 -u 0000 "C:/Users/Shahriar Shahramian/Desktop/32x32LEDMatrix/fpga/fpga_top.bit" -spi 
+
+PROM C:\Users\Shahriar Shahramian\Desktop\32x32LEDMatrix\fpga\fpga_top.prm map: Thu Sep 05 23:35:05 2013
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          8192K
+PROM start    0000:0000
+PROM end      007f:ffff
+PROM checksum 7a72bc32
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:34a7     Sep 05 23:24:56 2013 C:/Users/Shahriar Shahramian/Desktop/32x32LEDMatrix/fpga/fpga_top.bit

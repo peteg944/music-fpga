@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.68d
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.68d
+DATE            09/05/2013 - 23:35
+SOURCE          C:\Users\Shahriar Shahramian\Desktop\32x32LEDMatrix\fpga\fpga_top.mcs
+DEVICE          8192K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x7A72BC32
+START_ADDRESS   0x00000000 END_ADDRESS 0x000534A7 DIRECTION_UP   "C:/Users/Shahriar Shahramian/Desktop/32x32LEDMatrix/fpga/fpga_top.bit" 6slx9tqg144

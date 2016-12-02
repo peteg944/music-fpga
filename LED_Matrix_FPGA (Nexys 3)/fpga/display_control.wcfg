@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Shahriar/Desktop/32x32LEDMatrix/fpga/fpga_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fpga_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/fpga_tb/uut/disp_i/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_ena" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display_ena</obj_property>
+      <obj_property name="ObjectShortName">display_ena</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/ram_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_data[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[47:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/ram_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_address[8:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_rgb1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">display_rgb1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">display_rgb1[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_rgb2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">display_rgb2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">display_rgb2[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">display_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">display_addr[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display_clk</obj_property>
+      <obj_property name="ObjectShortName">display_clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display_oe</obj_property>
+      <obj_property name="ObjectShortName">display_oe</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/display_lat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display_lat</obj_property>
+      <obj_property name="ObjectShortName">display_lat</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/next_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/pwm_ctr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pwm_ctr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_ctr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/pwm_inc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pwm_inc</obj_property>
+      <obj_property name="ObjectShortName">pwm_inc</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/row_inc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">row_inc</obj_property>
+      <obj_property name="ObjectShortName">row_inc</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/col_inc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">col_inc</obj_property>
+      <obj_property name="ObjectShortName">col_inc</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/red1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/red2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/green1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/green2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/blue1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/blue2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/wait_ctr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wait_ctr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_ctr[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/wait_ena" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wait_ena</obj_property>
+      <obj_property name="ObjectShortName">wait_ena</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/address_ctr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address_ctr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">address_ctr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/next_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">next_oe</obj_property>
+      <obj_property name="ObjectShortName">next_oe</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/disp_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">disp_oe</obj_property>
+      <obj_property name="ObjectShortName">disp_oe</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/disp_lat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">disp_lat</obj_property>
+      <obj_property name="ObjectShortName">disp_lat</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/disp_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">disp_clk</obj_property>
+      <obj_property name="ObjectShortName">disp_clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/gamma" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">gamma</obj_property>
+      <obj_property name="ObjectShortName">gamma</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/wait_max" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">wait_max</obj_property>
+      <obj_property name="ObjectShortName">wait_max</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_tb/uut/disp_i/wait_res" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">wait_res</obj_property>
+      <obj_property name="ObjectShortName">wait_res</obj_property>
+   </wvobject>
+</wave_config>
