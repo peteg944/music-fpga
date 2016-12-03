@@ -22,21 +22,22 @@ module Microphone(
 	reg [7:0] spi_mosi_byte, spi_mosi_byte_d;
 	wire [7:0] spi_miso_byte;
 	wire spi_done;
-	SPI #(7) spi(clk, rst, spi_miso, spi_mosi, spi_clk, spi_start, spi_mosi_byte, spi_miso_byte, , spi_done);
+	SPI #(6) spi(clk, rst, spi_miso, spi_mosi, spi_clk, spi_start, spi_mosi_byte, spi_miso_byte, , spi_done);
+	// parameter 6 = divide 100 Mhz clock by 2^6, which ends up being 1.5625 MHz
 	
 	// States
 	reg [3:0] state, state_d; // State of the module
 	reg [3:0] state_after, state_after_d; // State to go to after waiting for spi to be done
-	localparam	SPI_START =		4'd0,
-				SPI_WAIT =			4'd1,
-				IDLE =				4'd2,
-				CS_LOW =				4'd3,
-				SEND_START =		4'd4,
-				SEND_CHANNEL =		4'd5,
-				RECV_2BITS =		4'd6,
-				SEND_ZEROS =		4'd7,
-				RECV_8BITS =		4'd8,
-				CS_HIGH =			4'd9;
+	localparam	SPI_START =			4'd0,
+					SPI_WAIT =			4'd1,
+					IDLE =				4'd2,
+					CS_LOW =				4'd3,
+					SEND_START =		4'd4,
+					SEND_CHANNEL =		4'd5,
+					RECV_2BITS =		4'd6,
+					SEND_ZEROS =		4'd7,
+					RECV_8BITS =		4'd8,
+					CS_HIGH =			4'd9;
 	
 	// Sequential logic
 	always @ (posedge clk) begin
