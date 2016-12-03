@@ -2,7 +2,7 @@
 
 module ADAU1761Top(
 	input clk,
-	input rst,
+	input filter_onoff,
 	input AC_GPIO1,
 	input AC_GPIO2,
 	input AC_GPIO3,
@@ -13,13 +13,12 @@ module ADAU1761Top(
 	output AC_SCK,
 	inout AC_SDA
 );
-
+	
 	// 48 MHz clock
 	wire clk_48;
 	Clock48MHZ c48(
     .CLK_100(clk),
-    .CLK_48(clk_48),
-    .RESET(rst)
+    .CLK_48(clk_48)
 	);
 	
 	// Audio module
