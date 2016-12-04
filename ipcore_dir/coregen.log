@@ -1,48 +1,5 @@
 INFO:sim:172 - Generating IP...
-Resolving generics for 'Clock48MHZ'...
-Applying external generics to 'Clock48MHZ'...
-Delivering associated files for 'Clock48MHZ'...
-WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
-   Verilog synthesis
-Delivering EJava files for 'Clock48MHZ'...
-Delivered 3 files into directory X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ
-Delivered 1 file into directory X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ
-Generating ASY schematic symbol...
-Loading device for application Rf_Device from file '7z020.nph' in environment
-C:\Xilinx\14.2\ISE_DS\ISE\.
-INFO:sim:949 - Finished generation of ASY schematic symbol.
-Generating SYM schematic symbol for 'Clock48MHZ'...
-Generating ISE project...
-XCO file found: Clock48MHZ.xco
-XMDF file found: Clock48MHZ_xmdf.tcl
-Adding X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_exde
-s.ucf -view all -origin_type created
-Adding X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_exde
-s.v -view all -origin_type created
-INFO:HDLCompiler:1845 - Analyzing Verilog file "X:/Xilinx
-   projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_e
-   xdes.v" into library work
-INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.asy -view all
--origin_type imported
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.v -view all
--origin_type created
-INFO:HDLCompiler:1845 - Analyzing Verilog file "X:/Xilinx
-   projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.v" into library work
-INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.veo -view all
--origin_type imported
-WARNING:coreutil - WARNING: This core does not have a top level called
-   "/Clock48MHZ"
-   WARNING: Top level has been set to "/Clock48MHZ_exdes"
-Generating README file...
-Generating FLIST file...
-INFO:sim:948 - Finished FLIST file generation.
-Launching README viewer...
-Moving files to output directory...
-Finished moving files to output directory
+Applying current project options...
+Finished applying current project options.
+Cancelled executing Tcl generator.
 Wrote CGP file for project 'Clock48MHZ'.

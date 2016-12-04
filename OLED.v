@@ -14,7 +14,7 @@ module OLED(output sclk,
 				output debug1,
 				input clk,
 				input rst,
-				input mode);
+				input [6:0] mode);
 	
 	localparam delay_bits = 24;
 	localparam delay_time = 24'd350;
@@ -48,7 +48,8 @@ module OLED(output sclk,
 	
 	// Text
 	reg [7:0] home [0:63]; // 64 eight-bit regs
-	reg [7:0] party [0:63]; // 64 eight-bit regs					  
+	reg [7:0] party [0:63]; // 64 eight-bit regs		
+	reg [7:0] stuff [0:63];
 	reg [2:0] repeat_count_d, repeat_count_q; // 8 times
 	reg [6:0] text_count_d, text_count_q; // 64 blocks (16 x 4) but need 7bit # for counting purposes
 	
@@ -86,6 +87,7 @@ module OLED(output sclk,
 	localparam COL_ADDR_3 =			6'd33;
 	
 	initial begin
+		$readmemh("default_text.hex", stuff);
 		$readmemh("home_text.hex", home);
 		$readmemh("party_text.hex", party);
 	end
@@ -263,10 +265,14 @@ module OLED(output sclk,
 				state_d = SPI_START;
 				
 				// Send out the correct byte
-				if(mode == 1'b1)
+				if(mode == 8'b00000001)
 					spi_mosi_byte_d = party[text_count_q];
-				else if(mode == 1'b0)
+				else if(mode == 8'b0)
 					spi_mosi_byte_d = home[text_count_q];
+				else if(mode == 8'b10)
+					spi_mosi_byte_d = party[text_count_q];
+				else if(mode == 8'b11)
+					spi_mosi_byte_d = stuff[text_count_q];
 				
 				// Update repeat and text counters
 				if(repeat_count_q == 3'h0) begin
