@@ -1,0 +1,51 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.68d
+#Current Working Directory:
+#:D   C:\Users\Shahriar Shahramian\Desktop\32x32LEDMatrix\32x32LEDMatrix\fpga
+#Date/Time:
+#:T   Sat Aug 29 19:10:32 2015
+#------------------------------
+	#Reading fpga_top.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.6\ISE_DS\ISE\.
+	#   "fpga_top" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+	#Design creation date: 2015.08.29.23.08.41
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+setattr main disable_draw on
+	#3
+setattr layer routes view on
+	#4
+setattr main disable_draw off
+	#Hint: change the visibility of more than one layer at a time by clicking on the apply button, clicking two or more layer buttons, and then clicking on the apply button again.
+	#5
+unselect -all
+	#6
+select pin 'SLICE_X14Y28.BQ'
+	#site.pin = SLICE_X14Y28.BQ
+	#7
+unselect -all
+	#8
+select comp 'disp_i/GND_14_o_GND_14_o_equal_33_o_inv'
+	#comp "disp_i/GND_14_o_GND_14_o_equal_33_o_inv",  site "SLICE_X14Y28",  type = SLICEX  (RPM grid X53Y112)
+	#9
+unselect -all
+	#10
+select comp 'disp_i/display_rgb2<1>23'
+	#comp "disp_i/display_rgb2<1>23",  site "SLICE_X18Y28",  type = SLICEX  (RPM grid X61Y112)
+	#11
+unselect -all
+	#12
+select comp 'disp_i/display_rgb2<1>23'
+	#comp "disp_i/display_rgb2<1>23",  site "SLICE_X18Y28",  type = SLICEX  (RPM grid X61Y112)
+	#13
+unselect -all
+	#14
+select comp 'disp_i/display_rgb2<1>23'
+	#comp "disp_i/display_rgb2<1>23",  site "SLICE_X18Y28",  type = SLICEX  (RPM grid X61Y112)
+	#15
+post block

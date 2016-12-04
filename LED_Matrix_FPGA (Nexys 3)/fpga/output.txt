@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+64M
+FF
+fpga_top
+C:\Users\Shahriar Shahramian\Desktop\32x32LEDMatrix\fpga\
+
+MCS
+No

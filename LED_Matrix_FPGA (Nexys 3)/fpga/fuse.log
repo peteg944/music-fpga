@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/fpga/fpga_tb_isim_beh.exe -prj C:/fpga/fpga_tb_beh.prj work.fpga_tb 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/fpga/ipcore_dir/pll.vhd" into library work
+Parsing VHDL file "C:/fpga/ipcore_dir/pll/example_design/pll_exdes.vhd" into library work
+Parsing VHDL file "C:/fpga/gamma_table.vhd" into library work
+Parsing VHDL file "C:/fpga/bram.vhd" into library work
+Parsing VHDL file "C:/fpga/uart_rx.vhd" into library work
+Parsing VHDL file "C:/fpga/display_control.vhd" into library work
+Parsing VHDL file "C:/fpga/animation.vhd" into library work
+Parsing VHDL file "C:/fpga/fpga_top.vhd" into library work
+Parsing VHDL file "C:/fpga/fpga_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package math_real
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture pll_adv_v of entity PLL_ADV [\PLL_ADV("OPTIMIZED","CLKFBOUT",...]
+Compiling architecture pll_base_v of entity PLL_BASE [\PLL_BASE("OPTIMIZED",18,0.0,31....]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity pll [pll_default]
+Compiling architecture syn of entity bram [\bram(10,8)\]
+Compiling architecture rtl of entity uart_rx [\uart_rx(7)\]
+Compiling architecture rtl of entity gamma_table [\gamma_table(8,2.8)\]
+Compiling architecture rtl of entity display_control [display_control_default]
+Compiling architecture rtl of entity animation [animation_default]
+Compiling architecture rtl of entity fpga_top [fpga_top_default]
+Compiling architecture behavior of entity fpga_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable C:/fpga/fpga_tb_isim_beh.exe
+Fuse Memory Usage: 60248 KB
+Fuse CPU Usage: 1341 ms

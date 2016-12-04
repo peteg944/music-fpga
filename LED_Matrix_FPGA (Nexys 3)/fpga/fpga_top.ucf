@@ -1,0 +1,65 @@
+
+NET "display_addr[3]" IOSTANDARD = LVTTL;
+NET "display_addr[2]" IOSTANDARD = LVTTL;
+NET "display_addr[1]" IOSTANDARD = LVTTL;
+NET "display_addr[0]" IOSTANDARD = LVTTL;
+NET "display_rgb1[2]" IOSTANDARD = LVTTL;
+NET "display_rgb1[1]" IOSTANDARD = LVTTL;
+NET "display_rgb1[0]" IOSTANDARD = LVTTL;
+NET "display_rgb2[2]" IOSTANDARD = LVTTL;
+NET "display_rgb2[1]" IOSTANDARD = LVTTL;
+NET "display_rgb2[0]" IOSTANDARD = LVTTL;
+NET "bluetooth_rxd" IOSTANDARD = LVTTL;
+NET "bluetooth_txd" IOSTANDARD = LVTTL;
+NET "clk" IOSTANDARD = LVTTL;
+NET "display_clk" IOSTANDARD = LVTTL;
+NET "display_lat" IOSTANDARD = LVTTL;
+NET "display_oe" IOSTANDARD = LVTTL;
+NET "led" IOSTANDARD = LVTTL;
+NET "usb_rxd" IOSTANDARD = LVTTL;
+NET "usb_txd" IOSTANDARD = LVTTL;
+
+NET "display_rgb1[0]" LOC = T12;
+NET "display_rgb1[1]" LOC = V12;
+NET "display_rgb1[2]" LOC = N10;
+NET "display_rgb2[0]" LOC = M10;
+NET "display_rgb2[1]" LOC = N9;
+NET "display_rgb2[2]" LOC = U11;
+NET "display_addr[0]" LOC = G11;
+NET "display_addr[1]" LOC = F10;
+NET "display_addr[2]" LOC = F11;
+NET "display_addr[3]" LOC = E11;
+NET "display_clk" LOC = D12;
+NET "display_lat" LOC = C12;
+NET "display_oe" LOC = F12;
+NET "led" LOC = U16;
+NET "usb_rxd" LOC = N18;
+NET "usb_txd" LOC = N17;
+NET "clk" LOC = V10;
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2013/09/05
+#NET "clk" TNM_NET = "clk";
+#TIMESPEC TS_clk = PERIOD "clk" 32 MHz HIGH 50 %;
+
+#Net "clk" TNM_NET = sys_clk_pin;
+#TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100 MHz HIGH 50 %;
+
+#NET "rx_i/rd_msb" TIG;
+
+
+NET "display_addr[0]" SLEW = FAST;
+NET "display_addr[1]" SLEW = FAST;
+NET "display_addr[2]" SLEW = FAST;
+NET "display_addr[3]" SLEW = FAST;
+NET "display_rgb1[0]" SLEW = FAST;
+NET "display_rgb1[1]" SLEW = FAST;
+NET "display_rgb1[2]" SLEW = FAST;
+NET "display_rgb2[0]" SLEW = FAST;
+NET "display_rgb2[1]" SLEW = FAST;
+NET "display_rgb2[2]" SLEW = FAST;
+NET "bluetooth_rxd" SLEW = FAST;
+NET "display_clk" SLEW = FAST;
+NET "display_lat" SLEW = FAST;
+NET "display_oe" SLEW = FAST;
+NET "led" SLEW = FAST;
+NET "usb_rxd" SLEW = FAST;

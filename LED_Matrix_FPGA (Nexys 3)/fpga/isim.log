@@ -1,0 +1,25 @@
+ISim log file
+Running: C:\fpga\fpga_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/fpga/display_control.wcfg -wdb C:/fpga/fpga_tb_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1 ms
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /fpga_tb/uut/disp_i/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(1)\/ram_red/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(1)\/ram_green/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(1)\/ram_blue/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(0)\/ram_red/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(0)\/ram_green/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/rx_i/\i_gen(0)\/ram_blue/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/red1_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/green1_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/blue1_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/red2_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/green2_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 15625 ps(9), Instance /fpga_tb/uut/disp_i/blue2_i/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
