@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 
-module MicrophoneTop(
+module MicrophoneSampler(
 	output spi_clk,
 	output spi_mosi,
 	output spi_cs,
 	input spi_miso,
 	input clk,
 	input rst,
-	output reg [7:0] sample
+	output [7:0] sample
 );
 	
 	localparam DELAY_20KHZ = 16'h1388; // decimal 5000 (100 mill / 20,000 = 5000)
@@ -18,13 +18,12 @@ module MicrophoneTop(
 	wire [9:0] sample_out;
 	Microphone mic(spi_clk, spi_mosi, spi_cs, spi_miso, clk, rst, start_conv, , sample_out);
 	
-	//assign sample = sample_out[9:2];
+	assign sample = sample_out[9:2];
 	
 	always @ (posedge clk) begin
 		if(rst) begin
 			counter <= 13'b0;
 			start_conv <= 1'b0;
-			sample <= 10'b0;
 		end else begin
 			if(counter == DELAY_40KHZ) begin
 				start_conv <= 1'b1;
@@ -33,8 +32,9 @@ module MicrophoneTop(
 			else begin
 				start_conv <= 1'b0;
 				counter <= counter + 1'b1;
-				sample <= 10'h0;
 				
+				/*
+				sample <= 10'h0;
 				if(sample_out >= 10'h1FF)
 					sample[0] <= 1'b1;
 				if(sample_out >= 10'h23F)
@@ -51,6 +51,7 @@ module MicrophoneTop(
 					sample[6] <= 1'b1;
 				if(sample_out >= 10'h3BF)
 					sample[7] <= 1'b1;
+				*/
 			end
 		end
 	end
