@@ -73,11 +73,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Peter Goulakos** - *Microphone (ADC), OLED, SPI, High-pass filter, Low-pass filter* - [peteg944](https://github.com/peteg944)
-* **Zack Webster** - *UART (Matlab) with matrix, matrix display driver, project integration* - [mzw23](https://github.com/mzw23)
-* **Luzhen Huang** - *Audio Codec, FFT, Frequency Spectrum Display*
-* **Runal Nair** - *FFT, Beat Detection Algorithm*
-* **Christine Duong** - *Matrix display driver adaptation, animation, home mode, systolic array, integration of system*
+* **Peter Goulakos**    *Microphone (ADC), OLED, SPI, High-pass filter, Low-pass filter* - [peteg944](https://github.com/peteg944)
+* **Zack Webster**      *UART (Matlab) with matrix, matrix display driver, project integration* - [mzw23](https://github.com/mzw23)
+* **Luzhen Huang**      *Audio Codec, FFT, Frequency Spectrum Display* - [onespark123](https://github.com/onespark123)
+* **Runal Nair**        *FFT, Beat Detection Algorithm* - [RunalNair](https://github.com/RunalNair)
+* **Christine Duong**   *Matrix display driver adaptation, animation, home mode, systolic array, integration of system*
 
 ## License
 
