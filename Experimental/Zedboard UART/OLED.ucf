@@ -1,0 +1,62 @@
+
+
+NET "clk" LOC = Y9;
+
+
+NET "clk" IOSTANDARD = LVCMOS33;
+
+
+NET "dc" LOC = U10;
+
+
+NET "dc" IOSTANDARD = LVCMOS33;
+
+
+NET "reset" LOC = U9;
+
+
+NET "reset" IOSTANDARD = LVCMOS33;
+
+
+NET "sclk" LOC = AB12;
+
+
+NET "sclk" IOSTANDARD = LVCMOS33;
+
+
+NET "sdin" LOC = AA12;
+
+
+NET "sdin" IOSTANDARD = LVCMOS33;
+
+
+NET "vdd" LOC = U12;
+
+
+NET "vdd" IOSTANDARD = LVCMOS33;
+
+
+NET "rst" LOC = F22;
+
+
+NET "rst" IOSTANDARD = LVCMOS18;
+
+
+NET "vbat" LOC = U11;
+
+
+NET "vbat" IOSTANDARD = LVCMOS33;
+
+
+NET "debug1" LOC = T22;
+
+
+NET "debug1" IOSTANDARD = LVCMOS18;
+
+# PlanAhead Generated physical constraints 
+
+NET "mode" LOC = G22;
+
+# PlanAhead Generated IO constraints 
+
+NET "mode" IOSTANDARD = LVCMOS18;
