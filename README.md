@@ -59,21 +59,19 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [The Signal Path](http://thesignalpath.com/blogs/2015/09/01/tutorial-on-the-design-implementation-of-an-fpga-rgb-led-matrix-driver/) - Driver for 32x32 LED Matrix by Adafruit
-* [Zedboard Audio](http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_Audio
-) - Audio Driver for Zedboard
+* [Zedboard Audio](http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_Audio) - Audio Driver for Zedboard
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Peter Goulakos**    *Microphone (ADC), OLED, SPI, High-pass filter, Low-pass filter* - [peteg944](https://github.com/peteg944)
+* **Peter Goulakos**    
+* *Microphone (ADC), OLED, SPI, High-pass filter, Low-pass filter* - [peteg944](https://github.com/peteg944)
 * **Zack Webster**      *UART (Matlab) with matrix, matrix display driver, project integration* - [mzw23](https://github.com/mzw23)
 * **Luzhen Huang**      *Audio Codec, FFT, Frequency Spectrum Display* - [onespark123](https://github.com/onespark123)
 * **Runal Nair**        *FFT, Beat Detection Algorithm* - [RunalNair](https://github.com/RunalNair)
