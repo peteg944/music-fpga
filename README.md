@@ -1,5 +1,4 @@
-# FPGA-Driven DSP Filtering and Visualization for Audio
-# Team Enlightened, EC551, Boston University
+# FPGA-Driven DSP Filtering and Visualization for Audio - Team Enlightened, EC551, Boston University
 
 The purpose of this project is to demonstrate the use of audio processing for the management of program states and visualization. By connecting and integrating multiple types of peripherals onto an FPGA board, applications that could benefit from low latency, such as audio processing, dynamic lighting, and responsiveness to environment, can be fully showcased. The potential for use along with current home automation systems, where multiple tasks need to be carried out simultaneously and quickly, is well demonstrated in this way.
 
