@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="FFT">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-12-10T2:29:36</timestamp>
+    <pin polarity="Input" x="0" y="80" name="s_axis_config_tdata[7:0]" />
+    <pin polarity="Input" x="0" y="112" name="s_axis_config_tvalid" />
+    <pin polarity="Output" x="0" y="144" name="s_axis_config_tready" />
+    <pin polarity="Input" x="0" y="208" name="s_axis_data_tdata[31:0]" />
+    <pin polarity="Input" x="0" y="240" name="s_axis_data_tvalid" />
+    <pin polarity="Input" x="0" y="272" name="s_axis_data_tlast" />
+    <pin polarity="Output" x="0" y="304" name="s_axis_data_tready" />
+    <pin polarity="Input" x="0" y="400" name="aclk" />
+    <pin polarity="Output" x="928" y="208" name="m_axis_data_tdata[31:0]" />
+    <pin polarity="Output" x="928" y="240" name="m_axis_data_tuser[7:0]" />
+    <pin polarity="Output" x="928" y="272" name="m_axis_data_tvalid" />
+    <pin polarity="Output" x="928" y="304" name="m_axis_data_tlast" />
+    <pin polarity="Output" x="928" y="400" name="event_frame_started" />
+    <pin polarity="Output" x="928" y="432" name="event_tlast_unexpected" />
+    <pin polarity="Output" x="928" y="464" name="event_tlast_missing" />
+    <pin polarity="Output" x="928" y="528" name="event_data_in_channel_halt" />
+    <graph>
+        <text style="fontsize:40;fontname:Arial" x="32" y="32">FFT</text>
+        <rect width="864" x="32" y="32" height="608" />
+        <line x2="32" y1="80" y2="80" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="80" type="pin s_axis_config_tdata[7:0]" />
+        <line x2="32" y1="112" y2="112" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin s_axis_config_tvalid" />
+        <line x2="32" y1="144" y2="144" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="144" type="pin s_axis_config_tready" />
+        <line x2="32" y1="208" y2="208" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="208" type="pin s_axis_data_tdata[31:0]" />
+        <line x2="32" y1="240" y2="240" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="240" type="pin s_axis_data_tvalid" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin s_axis_data_tlast" />
+        <line x2="32" y1="304" y2="304" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="304" type="pin s_axis_data_tready" />
+        <line x2="32" y1="400" y2="400" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="400" type="pin aclk" />
+        <line x2="896" y1="208" y2="208" style="linewidth:W" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="208" type="pin m_axis_data_tdata[31:0]" />
+        <line x2="896" y1="240" y2="240" style="linewidth:W" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="240" type="pin m_axis_data_tuser[7:0]" />
+        <line x2="896" y1="272" y2="272" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="272" type="pin m_axis_data_tvalid" />
+        <line x2="896" y1="304" y2="304" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="304" type="pin m_axis_data_tlast" />
+        <line x2="896" y1="400" y2="400" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="400" type="pin event_frame_started" />
+        <line x2="896" y1="432" y2="432" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="432" type="pin event_tlast_unexpected" />
+        <line x2="896" y1="464" y2="464" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="464" type="pin event_tlast_missing" />
+        <line x2="896" y1="528" y2="528" x1="928" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="892" y="528" type="pin event_data_in_channel_halt" />
+    </graph>
+</symbol>

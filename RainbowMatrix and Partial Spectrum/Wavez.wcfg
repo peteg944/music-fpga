@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Documents/Xilinx Projects/Enlightened/Test_OLED_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test_OLED" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/Test_OLED/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/sdin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdin</obj_property>
+      <obj_property name="ObjectShortName">sdin</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/dc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dc</obj_property>
+      <obj_property name="ObjectShortName">dc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/vdd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vdd</obj_property>
+      <obj_property name="ObjectShortName">vdd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/vbat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vbat</obj_property>
+      <obj_property name="ObjectShortName">vbat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/start_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_q</obj_property>
+      <obj_property name="ObjectShortName">start_q</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/spi_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_busy</obj_property>
+      <obj_property name="ObjectShortName">spi_busy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/spi_mosi_byte_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_mosi_byte_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi_byte_q[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/state_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state_q[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/state_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_d[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state_d[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_OLED/uut/delay_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">delay_d[23:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_d[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

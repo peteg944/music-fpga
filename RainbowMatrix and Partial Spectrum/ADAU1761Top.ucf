@@ -1,0 +1,122 @@
+NET clk				LOC = Y9   | IOSTANDARD=LVCMOS33 | PERIOD = 10 ns;  # "GCLK"
+NET filter_onoff	LOC = F22  | IOSTANDARD=LVCMOS18;
+
+NET AC_ADR0       LOC = AB1  | IOSTANDARD=LVCMOS33;
+NET AC_ADR1       LOC = Y5   | IOSTANDARD=LVCMOS33;
+NET AC_GPIO0      LOC = Y8   | IOSTANDARD=LVCMOS33;
+NET AC_GPIO1      LOC = AA7  | IOSTANDARD=LVCMOS33;
+NET AC_GPIO2      LOC = AA6  | IOSTANDARD=LVCMOS33;
+NET AC_GPIO3      LOC = Y6   | IOSTANDARD=LVCMOS33;
+NET AC_SCK        LOC = AB4  | IOSTANDARD=LVCMOS33;
+NET AC_SDA        LOC = AB5  | IOSTANDARD=LVCMOS33; 
+NET AC_MCLK       LOC = AB2  | IOSTANDARD=LVCMOS33; 
+
+
+
+
+
+NET "display_addr[3]" IOSTANDARD = LVTTL;
+NET "display_addr[2]" IOSTANDARD = LVTTL;
+NET "display_addr[1]" IOSTANDARD = LVTTL;
+NET "display_addr[0]" IOSTANDARD = LVTTL;
+NET "display_rgb1[2]" IOSTANDARD = LVTTL;
+NET "display_rgb1[1]" IOSTANDARD = LVTTL;
+NET "display_rgb1[0]" IOSTANDARD = LVTTL;
+NET "display_rgb2[2]" IOSTANDARD = LVTTL;
+NET "display_rgb2[1]" IOSTANDARD = LVTTL;
+NET "display_rgb2[0]" IOSTANDARD = LVTTL;
+NET "display_clk" IOSTANDARD = LVTTL;
+NET "display_lat" IOSTANDARD = LVTTL;
+NET "display_oe" IOSTANDARD = LVTTL;
+
+#NET "display_rgb1[0]" LOC = T12; #JA<0>
+#NET "display_rgb1[1]" LOC = V12; #JA<1>
+#NET "display_rgb1[2]" LOC = N10; #JA<2>
+#NET "display_rgb2[0]" LOC = M10; #JA<4>
+#NET "display_rgb2[1]" LOC = N9; #JA<5>
+#NET "display_rgb2[2]" LOC = U11; #JA<6>
+#NET "display_addr[0]" LOC = G11; #JD<0>
+#NET "display_addr[1]" LOC = F10; #JD<1>
+#NET "display_addr[2]" LOC = F11; #JD<2>
+#NET "display_addr[3]" LOC = E11; #JD<3>
+#NET "display_clk" LOC = D12; #JD<4>
+#NET "display_lat" LOC = C12; #JD<5>
+#NET "display_oe" LOC = F12; #JD<6>
+#NET "led" LOC = U16; #Led<0> 
+##NET "usb_rxd" LOC = N18; 
+##NET "usb_txd" LOC = N17;
+#NET "clk" LOC = V10; #clk
+
+NET "display_rgb1[0]" LOC = Y11; #Zed JA<1>
+NET "display_rgb1[1]" LOC = AA11; #Zed JA<2>
+NET "display_rgb1[2]" LOC = Y10; #Zed JA<3>
+NET "display_rgb2[0]" LOC = AB11; #Zed JA<7>
+NET "display_rgb2[1]" LOC = AB10; #Zed JA<8>
+NET "display_rgb2[2]" LOC = AB9; #Zed JA<9>
+NET "display_addr[0]" LOC = W12; #Zed JB<1>
+NET "display_addr[1]" LOC = W11; #Zed JB<2>
+NET "display_addr[2]" LOC = V10; #Zed JB<3>
+NET "display_addr[3]" LOC = W8; #Zed JB<4>
+NET "display_clk" LOC = V12; #Zed JB<7>
+NET "display_lat" LOC = W10; #Zed JB<8>
+NET "display_oe" LOC = V9; #Zed JB<9>
+#NET "usb_rxd" LOC = H3; 
+#NET "usb_txd" LOC = L7;
+
+
+NET "shift[0]" LOC=G22;
+NET "shift[1]" LOC=H22;
+NET "shift[2]" LOC=F21;
+NET "shift[3]" LOC=H19;
+
+#NET "on_off" LOC=H18;
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2013/09/05
+#NET "clk" TNM_NET = "clk";
+#TIMESPEC TS_clk = PERIOD "clk" 32 MHz HIGH 50 %;
+
+#Net "clk" TNM_NET = sys_clk_pin;
+#TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100 MHz HIGH 50 %;
+
+#NET "rx_i/rd_msb" TIG;
+
+
+NET "display_addr[0]" SLEW = FAST;
+NET "display_addr[1]" SLEW = FAST;
+NET "display_addr[2]" SLEW = FAST;
+NET "display_addr[3]" SLEW = FAST;
+NET "display_rgb1[0]" SLEW = FAST;
+NET "display_rgb1[1]" SLEW = FAST;
+NET "display_rgb1[2]" SLEW = FAST;
+NET "display_rgb2[0]" SLEW = FAST;
+NET "display_rgb2[1]" SLEW = FAST;
+NET "display_rgb2[2]" SLEW = FAST;
+NET "display_clk" SLEW = FAST;
+NET "display_lat" SLEW = FAST;
+NET "display_oe" SLEW = FAST;
+
+NET "clk" LOC = Y9;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "rst" LOC = M15;
+NET "rst" IOSTANDARD = LVCMOS18;
+NET "spi_cs" LOC = V7;
+NET "spi_cs" IOSTANDARD = LVCMOS33;
+NET "spi_mosi" LOC = W7;
+NET "spi_mosi" IOSTANDARD = LVCMOS33;
+NET "spi_miso" LOC = V5;
+NET "spi_miso" IOSTANDARD = LVCMOS33;
+NET "spi_clk" LOC = V4;
+NET "spi_clk" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "sample[0]" LOC = T22;
+NET "sample[1]" LOC = T21;
+NET "sample[2]" LOC = U22;
+NET "sample[3]" LOC = U21;
+NET "sample[4]" LOC = V22;
+NET "sample[5]" LOC = W22;
+NET "sample[6]" LOC = U19;
+NET "sample[7]" LOC = U14;
+
+

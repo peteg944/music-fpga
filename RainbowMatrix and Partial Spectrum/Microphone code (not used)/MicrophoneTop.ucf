@@ -1,0 +1,32 @@
+NET "sample[7]" IOSTANDARD = LVCMOS18;
+NET "sample[6]" IOSTANDARD = LVCMOS18;
+NET "sample[5]" IOSTANDARD = LVCMOS18;
+NET "sample[4]" IOSTANDARD = LVCMOS18;
+NET "sample[3]" IOSTANDARD = LVCMOS18;
+NET "sample[2]" IOSTANDARD = LVCMOS18;
+NET "sample[0]" IOSTANDARD = LVCMOS18;
+NET "sample[1]" IOSTANDARD = LVCMOS18;
+
+NET "clk" LOC = Y9;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "rst" LOC = M15;
+NET "rst" IOSTANDARD = LVCMOS18;
+NET "spi_cs" LOC = AB11;
+NET "spi_cs" IOSTANDARD = LVCMOS33;
+NET "spi_mosi" LOC = AB10;
+NET "spi_mosi" IOSTANDARD = LVCMOS33;
+NET "spi_miso" LOC = AB9;
+NET "spi_miso" IOSTANDARD = LVCMOS33;
+NET "spi_clk" LOC = AA8;
+NET "spi_clk" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "sample[0]" LOC = T22;
+NET "sample[1]" LOC = T21;
+NET "sample[2]" LOC = U22;
+NET "sample[3]" LOC = U21;
+NET "sample[4]" LOC = V22;
+NET "sample[5]" LOC = W22;
+NET "sample[6]" LOC = U19;
+NET "sample[7]" LOC = U14;

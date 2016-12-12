@@ -1,0 +1,20 @@
+# Output products list for <FFT>
+FFT.asy
+FFT.gise
+FFT.ngc
+FFT.sym
+FFT.v
+FFT.veo
+FFT.xco
+FFT.xise
+FFT\cmodel\xfft_v8_0_bitacc_cmodel_lin.zip
+FFT\cmodel\xfft_v8_0_bitacc_cmodel_lin64.zip
+FFT\cmodel\xfft_v8_0_bitacc_cmodel_nt.zip
+FFT\cmodel\xfft_v8_0_bitacc_cmodel_nt64.zip
+FFT\doc\ds808_xfft.pdf
+FFT\doc\xfft_v8_0_readme.txt
+FFT\doc\xfft_v8_0_vinfo.html
+FFT_flist.txt
+FFT_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+demo_tb\tb_FFT.vhd

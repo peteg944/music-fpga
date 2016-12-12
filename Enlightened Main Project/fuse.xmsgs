@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/User/Documents/Xilinx Projects/Enlightened/Test_OLED.v" Line 18: Port <arg fmt="%s" index="1">debug1</arg> is not connected to this instance
-</msg>
-
 </messages>
 

@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/User/Documents/Xilinx Projects/Enlightened/Test_OLED_isim_beh.exe" -prj "C:/Users/User/Documents/Xilinx Projects/Enlightened/Test_OLED_beh.prj" "work.Test_OLED" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/Desktop/music-fpga-master/music-fpga-master/ClapTest_isim_beh.exe" -prj "X:/Desktop/music-fpga-master/music-fpga-master/ClapTest_beh.prj" "work.ClapTest" "work.glbl" 

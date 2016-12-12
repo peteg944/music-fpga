@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST_isim_beh.exe -prj X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST_beh.prj work.FFT_TEST work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/Desktop/Project_stuff/music-fpga-master/ipcore_dir/FFT.v" into library work
+Analyzing Verilog file "X:/Desktop/Project_stuff/music-fpga-master/../../music-fpga-master/wrap_FFT.v" into library work
+Analyzing Verilog file "X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+Completed static elaboration
+Compiling module VCC
+Compiling module GND
+Compiling module FDR
+Compiling module FDE
+Compiling module FDS
+Compiling module LUT3(INIT=8'b10101110)
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module LUT6(INIT=64'b100100000000100100...
+Compiling module FD
+Compiling module FDRE
+Compiling module SRL16E
+Compiling module DSP48E1(ALUMODEREG=0,BCASCREG=2,...
+Compiling module DSP48E1(ALUMODEREG=0,BCASCREG=2,...
+Compiling module LUT4(INIT=16'b1010101010101001)
+Compiling module LUT5(INIT=32'b100010001000100010...
+Compiling module LUT2(INIT=4'b1001)
+Compiling module FDSE(INIT=1'b0)
+Compiling module LUT1(INIT=2'b10)
+Compiling module MUXF7
+Compiling module INV
+Compiling module SRLC16E
+Compiling module SRLC32E
+Compiling module FFT
+Compiling module wrap_FFT
+Compiling module FFT_TEST
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 57 Verilog Units
+Built simulation executable X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST_isim_beh.exe
+Fuse Memory Usage: 45240 KB
+Fuse CPU Usage: 1340 ms

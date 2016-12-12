@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST_isim_beh.exe" -prj "X:/Desktop/Project_stuff/music-fpga-master/FFT_TEST_beh.prj" "work.FFT_TEST" "work.glbl" 

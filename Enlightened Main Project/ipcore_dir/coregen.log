@@ -1,14 +1,20 @@
 INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'Clock48MHZ' already exists in the project. Output
+   products for this core may be overwritten.
 Resolving generics for 'Clock48MHZ'...
+WARNING:sim - A core named 'Clock48MHZ' already exists in the project. Output
+   products for this core may be overwritten.
 Applying external generics to 'Clock48MHZ'...
 Delivering associated files for 'Clock48MHZ'...
 WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
    Verilog synthesis
 Delivering EJava files for 'Clock48MHZ'...
-Delivered 3 files into directory X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ
-Delivered 1 file into directory X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ
+Delivered 3 files into directory
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ
+Delivered 1 file into directory
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ
 Generating ASY schematic symbol...
 Loading device for application Rf_Device from file '7z020.nph' in environment
 C:\Xilinx\14.2\ISE_DS\ISE\.
@@ -17,25 +23,29 @@ Generating SYM schematic symbol for 'Clock48MHZ'...
 Generating ISE project...
 XCO file found: Clock48MHZ.xco
 XMDF file found: Clock48MHZ_xmdf.tcl
-Adding X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_exde
-s.ucf -view all -origin_type created
-Adding X:/Xilinx
-projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_exde
-s.v -view all -origin_type created
-INFO:HDLCompiler:1845 - Analyzing Verilog file "X:/Xilinx
-   projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ/example_design/Clock48MHZ_e
-   xdes.v" into library work
+Adding
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ/exa
+mple_design/Clock48MHZ_exdes.ucf -view all -origin_type created
+Adding
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ/exa
+mple_design/Clock48MHZ_exdes.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ
+   /example_design/Clock48MHZ_exdes.v" into library work
 INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.asy -view all
--origin_type imported
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.v -view all
--origin_type created
-INFO:HDLCompiler:1845 - Analyzing Verilog file "X:/Xilinx
-   projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.v" into library work
+Adding
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ.asy
+-view all -origin_type imported
+Adding
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ
+   .v" into library work
 INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
-Adding X:/Xilinx projects/music-fpga/ipcore_dir/tmp/_cg/Clock48MHZ.veo -view all
--origin_type imported
+Adding
+X:/Desktop/music-fpga-master/music-fpga-master/ipcore_dir/tmp/_cg/Clock48MHZ.veo
+-view all -origin_type imported
 WARNING:coreutil - WARNING: This core does not have a top level called
    "/Clock48MHZ"
    WARNING: Top level has been set to "/Clock48MHZ_exdes"
