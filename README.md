@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Software
 
-You need the following installed on your computer
+You need the following installed on your computer:
 
 ```
 ISE Design Suite 14.2 and associated tools
@@ -45,10 +45,23 @@ To deploy on a Zedboard Zynq-7000 FPGA:
 6. Select from within the project folder, 'final_loud_threshold.bit'.
 7. Right click the xc7z020 and select Program. The program will be loaded onto the FPGA.
 
-## Built With
+## Project Code (Verilog and VHDL)
+
+### Built With
 
 * [The Signal Path](http://thesignalpath.com/blogs/2015/09/01/tutorial-on-the-design-implementation-of-an-fpga-rgb-led-matrix-driver/) - Driver for 32x32 LED Matrix by Adafruit
 * [Zedboard Audio](http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_Audio) - Audio Driver for Zedboard
+
+### GitHub Folders
+* Enlightened Main Project
+* Experimental
+* LED_Matrix_FPGA_MATLAB
+* LED_Matrix_FPGA_Nexys 3
+* Microphone code (Not used)
+* Zedboard Reference
+
+### 
+
 
 ## Authors
 
