@@ -58,24 +58,26 @@ To deploy on a Zedboard Zynq-7000 FPGA:
 
 ### Module Descriptions
 
-* ADAU1761Top.v
-* animation.v
-* Claps.v
+* ADAU1761Top.v - Main module, connects in multiple clock core for control of individual components
+* animation.v - Modified module for displaying music animation
+* Claps.v - Clap detection
 * ClapTest.v
 * Clock48MHZ_exdes.v
 * Clock48MHZ_tb.v
 * Clock48MHZ.v
-* HighPassFilter.v
-* LowPassFilter.v
+* HighPassFilter.v - High Pass Filter
+* LowPassFilter.v - Low Pass Filter
 * Microphone.v
 * MicrophoneTop.v
-* OLED.v
-* OLEDText.v
+* OLED.v - OLED display control
+* OLEDText.v - Font for being displayed on the OLED display
 * ProcessingUnit.v
-* SPI.v
+* SPI.v - SPI mdoule for use with OLED
 * Test_OLED.v
 * Test_SPI.v
 * Testing.v
+* bram.vhd - Image storage when data sent from UART
+* display_control.vhd - Main control for 32 x 32 LED matrix
 
 ### Built With
 
