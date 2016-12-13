@@ -8,65 +8,39 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need the following installed on your computer
 
 ```
-Give examples
+ISE Design Suite and associated tools
+MATLAB (if you want to load images over UART)
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+1. Open ISE
+2. Navigate to the Enlightened Main Project folder
+3. Open the project (Enlightened.xise)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+There exists one test file that can be run in ISim to verify the functionality of the SPI module. The test resides inside Test_SPI.v
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy on a Zedboard Zynq-7000 FPGA:
+
+1. Select Tools > iMPACT in the ISE window. 
+2. If ISE asks if you want to regenerate files, select the No option.
+3. When iMPACT opens, double-click on Boundary Scan in the left panel.
+4. Right click in the blank space on the right and select Initialize Chain. You will see two processors.
+5. Assign the configuration (.bit) file for the xc7z020 by right clicking it and selecting Assign a New Configuration File.
+6. Select from within the project folder, 'final_loud_threshold.bit'.
+7. Right click the xc7z020 and select Program. The program will be loaded onto the FPGA.
 
 ## Built With
 
 * [The Signal Path](http://thesignalpath.com/blogs/2015/09/01/tutorial-on-the-design-implementation-of-an-fpga-rgb-led-matrix-driver/) - Driver for 32x32 LED Matrix by Adafruit
 * [Zedboard Audio](http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_Audio) - Audio Driver for Zedboard
-
-
-## Contributing
-
-
-## Versioning
-
 
 ## Authors
 
@@ -79,9 +53,3 @@ Add additional notes about how to deploy this on a live system
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
