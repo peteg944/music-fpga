@@ -49,14 +49,33 @@ To deploy on a Zedboard Zynq-7000 FPGA:
 
 ### GitHub Folders
 
-* Enlightened Main Project - *Completed system code*
-* Experimental - *Includes implemented UART code for Zedboard and partial FFT code (colored spectrum)*
-* LED_Matrix_FPGA_MATLAB - *MATLAB code for use with UART code*
-* LED_Matrix_FPGA_Nexys3 - *Test code on Nexys3*
-* Microphone code (Not used) - *Original microphone code*
-* Zedboard Reference - *Reference Files*
+* **Enlightened Main Project** - *Completed system code*
+* **Experimental** - *Includes implemented UART code for Zedboard and partial FFT code (colored spectrum)*
+* **LED_Matrix_FPGA_MATLAB** - *MATLAB code for use with UART code*
+* **LED_Matrix_FPGA_Nexys3** - *Test code on Nexys3*
+* **Microphone code (Not used)** - *Original microphone code*
+* **Zedboard Reference** - *Reference Files*
 
-### 
+### Module Descriptions
+
+* ADAU1761Top.v
+* animation.v
+* Claps.v
+* ClapTest.v
+* Clock48MHZ_exdes.v
+* Clock48MHZ_tb.v
+* Clock48MHZ.v
+* HighPassFilter.v
+* LowPassFilter.v
+* Microphone.v
+* MicrophoneTop.v
+* OLED.v
+* OLEDText.v
+* ProcessingUnit.v
+* SPI.v
+* Test_OLED.v
+* Test_SPI.v
+* Testing.v
 
 ### Built With
 
