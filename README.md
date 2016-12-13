@@ -4,14 +4,22 @@ The purpose of this project is to demonstrate the use of audio processing for th
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
+### Hardware
+
+* [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/products/1063)
+* [MCP3008 - 8-Channel 10-Bit ADC With SPI Interface](https://www.adafruit.com/products/856)
+* [5V 2A (2000mA) switching power supply](https://www.adafruit.com/products/276)
+* [32X32 RGB LED Matrix Panel - 6mm Pitch](https://www.adafruit.com/product/1484)
+
+### Software
 
 You need the following installed on your computer
 
 ```
-ISE Design Suite and associated tools
+ISE Design Suite 14.2 and associated tools
 MATLAB (if you want to load images over UART)
 ```
 
