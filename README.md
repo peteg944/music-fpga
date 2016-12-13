@@ -47,21 +47,21 @@ To deploy on a Zedboard Zynq-7000 FPGA:
 
 ## Project Code (Verilog and VHDL)
 
+### GitHub Folders
+
+* Enlightened Main Project - *Completed system code*
+* Experimental - *Includes implemented UART code for Zedboard and partial FFT code (colored spectrum)*
+* LED_Matrix_FPGA_MATLAB - *MATLAB code for use with UART code*
+* LED_Matrix_FPGA_Nexys3 - *Test code on Nexys3*
+* Microphone code (Not used) - *Original microphone code*
+* Zedboard Reference - *Reference Files*
+
+### 
+
 ### Built With
 
 * [The Signal Path](http://thesignalpath.com/blogs/2015/09/01/tutorial-on-the-design-implementation-of-an-fpga-rgb-led-matrix-driver/) - Driver for 32x32 LED Matrix by Adafruit
 * [Zedboard Audio](http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_Audio) - Audio Driver for Zedboard
-
-### GitHub Folders
-* Enlightened Main Project
-* Experimental
-* LED_Matrix_FPGA_MATLAB
-* LED_Matrix_FPGA_Nexys 3
-* Microphone code (Not used)
-* Zedboard Reference
-
-### 
-
 
 ## Authors
 
